@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application 
+	xmlns:mx="http://www.adobe.com/2006/mxml" 
+	xmlns:view="aurora.controls.viewContainer.*"
+	viewSourceURL="srcview/index.html">
+	<mx:Panel width="400" height="250"
+	    paddingBottom="10" paddingLeft="10" paddingRight="10" paddingTop="10"
+	    >
+	    <view:ViewNavigator id="tn"  width="100%" height="100%">
+            <!-- Define each panel using a VBox container. -->
+
+            <mx:VBox label="Panel 1">
+                <mx:Label text="TabNavigator container panel 1"/>
+            </mx:VBox>
+
+            <mx:VBox label="Panel 2">
+                <mx:Label text="TabNavigator container panel 2"/>
+            </mx:VBox>
+
+            <mx:VBox label="Panel 3">
+                <mx:Label text="TabNavigator container panel 3"/>
+            </mx:VBox>
+            
+            <mx:VBox label="Panel 4">
+                <mx:Label text="TabNavigator container panel 1"/>
+            </mx:VBox>
+
+            <mx:VBox label="Panel 5">
+                <mx:Label text="TabNavigator container panel 2"/>
+            </mx:VBox>
+            
+        </view:ViewNavigator>
+        
+		 <!--view:ViewBar>
+            <view:dataProvider>{STATE_ARRAY}</view:dataProvider>
+		 </view:ViewBar-->
+	</mx:Panel>
+</mx:Application>
